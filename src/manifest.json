@@ -7,7 +7,7 @@
   "icons": [
     { "src": "images/black-hole.jpg",
       "sizes": "6000x3375",
-      "type": "image/png"
+      "type": "image/jpg"
     }
   ]
 }
