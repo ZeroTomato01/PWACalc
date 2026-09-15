@@ -3,9 +3,7 @@ self.addEventListener("install", e => {
     e.waitUntil(
         caches.open("static").then(cache => {
             return cache.addAll([
-                "./",
-                "./src/manifest.json",
-                "./src/images/Syntess.png"
+                "./*"
             ]);
         })
     );
